@@ -1,0 +1,61 @@
+footer {
+
+    padding: 0 5%;
+    position: relative;
+}
+
+/*----pierwsza stopka--------*/
+
+.icon_contakt {
+    border-top: 1px solid rgba(255, 255, 255, 0.178);
+    width: 100%;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.icon_href {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.icon_href:nth-child(2) {
+    margin: 0 1rem 0 1rem;
+}
+
+/*--------srodkowa stopka-----*/
+
+
+.box_footer {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.7rem;
+}
+
+.text_footer_medium {
+    padding: 1rem;
+    padding-left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+@media screen and (min-width: 992px) {
+    .f_container_medium {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text_footer_medium {
+        border-top: none;
+    }
+
+}
+
+/*--------ostania stopka----*/
+.f_container_end {
+
+    background-color: black;
+    color: rgba(255, 255, 255, 0.714);
+    padding: 10px;
+    padding-left: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.178);
+}
